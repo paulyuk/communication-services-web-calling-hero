@@ -97,7 +97,7 @@
           {
             "type": "microsoft.insights/components",
             "apiVersion": "2020-02-02-preview",
-            "name": "[parameters('appName')]",
+            "name": "[variables('appInsightsName')]",
             "location": "[variables('location')]",
             "kind": "string",
             "dependsOn": [
@@ -119,6 +119,9 @@
             "apiVersion": "2020-08-01",
             "name": "[variables('logAnalyticsName')]",
             "location": "[variables('location')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/Sites', parameters('appName'))]"
+            ],
             "tags": {
                 "displayName": "Log Analytics",
                 "ProjectName": "[parameters('appName')]"
