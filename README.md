@@ -1,4 +1,4 @@
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/paulyuk/communication-services-web-calling-hero/blob/main/deploy/azuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fpaulyuk%2Fcommunication-services-web-calling-hero%2Fblob%2Fmain%2Fdeploy%2Fazuredeploy.json)
 
 # Group Calling Sample
 
